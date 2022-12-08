@@ -1,4 +1,4 @@
-# corecore-week-3
+# Corecore-Practice-Challenges-week-3
 
 ## Ejercicio 1 - Calculadora
 For this challenge you will be performing a simple calculator, this calculator can perform the following operations:
@@ -77,3 +77,43 @@ You must create the code that follows the following logic, if the given number i
 
   FinAlgoritmo
   ``` 
+  
+  
+ ## Challenge 3 - Calculadora Usando Segun 
+ 
+ ``` python
+ 
+ 	Algoritmo CalculadoraUsandoSegun
+	Imprimir "Bienvenido a la calculadora de JA"
+	Imprimir "Por favor ingrese los números que desea operar"
+	Leer x;
+	Leer z;
+	Imprimir "Por favor ingrese +, -, x, / según la operación que quiera realizar"
+	Leer cal;
+	Si cal == "+" o cal == "-" o cal == "x" o cal == "*" o cal == "/" Entonces
+		Imprimir "Procesando " x cal z
+		Segun cal hacer 
+			"+":
+				r=x+z
+				Imprimir "El resultado es:" r
+			"-":
+				r=x-z
+				Imprimir "El resultado es:" r
+			"*" o "x":
+				r=x*z
+				Imprimir "El resultado es:" r
+			"/":
+				si z<>0 entonces r=x/z
+					Imprimir "El resultado es:" r
+				sino imprimir "Error, no puede dividir entre 0"
+					fin si
+			FinSegun
+			sino imprimir "Operación no valida, por favor ingrese bien la operacion +, -, x, /"
+		FinSi
+	
+	
+	
+	FinAlgoritmo
+	
+```
+
