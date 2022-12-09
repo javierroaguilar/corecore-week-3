@@ -228,4 +228,19 @@ You must create the code that follows the following logic, if the given number i
 	FinAlgoritmo
 ```
 
-## Challenge 7 - 
+## Challenge 7 - Tabla con For
+
+``` python
+
+	Algoritmo TablaConFor
+	Imprimir "Tablas de multiplicar"
+	Imprimir "Ingrese el número que desea operar"
+	Leer n
+	Imprimir "Tabla del " n
+	Para z = 1 hasta 10 Hacer
+		r=n*z
+		Imprimir n "*" z "= " r
+	FinPara
+	
+	FinAlgoritmo
+```
