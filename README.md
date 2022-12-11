@@ -267,3 +267,36 @@ You must create the code that follows the following logic, if the given number i
 	FinSegun
 	FinAlgoritmo
 ```
+
+## Challenge 9 - Saludos 
+
+``` python
+
+	Algoritmo Saludos
+	//Print Buenos dias! if the hour is from 0 to 12 - Buenas tardes! if the hour is from 13 to 18 - Buenas noches! if the hour is from 19 to 23
+	// Ask the user if he wants to perform another greeting. If the answer is Si, the program must start again.
+	// At the end of the program, print out the number of times the program has greeted.
+	Para x<-0 Hasta x Con paso 1 Hacer 
+	Repetir 
+		Imprimir "Ingrese la hora del día"
+		Leer h
+		Si h==24 o h<=12 entonces
+			Imprimir "Buenos días!"
+		FinSi
+		Si h>12 y h<=18 Entonces
+			Imprimir "Buenas tardes!"
+			Fin Si
+		Si h<24 y h>=19 Entonces 
+			Imprimir "Buenas noches!"
+		FinSi
+		Si h>24 o h<0 Entonces
+			Imprimir "ERROR - Ingrese hora valida (0-24h)"
+		FinSi
+		Imprimir "¿Desea repetir el programa? (SI/NO)"
+		Leer r
+		x = x+1
+	Hasta que Mayusculas(r) == "NO"
+	Finpara 
+	Imprimir "El programa se cargó " x " veces"
+	FinAlgoritmo
+```
