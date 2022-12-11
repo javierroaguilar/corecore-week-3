@@ -244,3 +244,26 @@ You must create the code that follows the following logic, if the given number i
 	
 	FinAlgoritmo
 ```
+
+## Challenge 8 - Orden Descendente / Ascendente
+
+``` python
+
+	Algoritmo OrdenNumeros
+	// Usuario ingresa un numero y decide si presentarlo de forma ascendente o descendente desde 0
+	Imprimir "Por favor ingrese el número que desea ejecutar";
+	Leer n
+	Imprimir "Ingrese 1 o 2 según la opción que desea ejecutar"
+	Imprimir "1) Orden Ascendente (0 hasta el número ingresado)"
+	Imprimir "2) Orden Descendente (Número ingresado a 0)"
+	Leer z 
+	Segun z Hacer 
+		1: Para x<-0 Hasta n Con paso 1 Hacer 
+				Imprimir x
+			FinPara
+		2: Para x<-n Hasta 0 Con paso -1 Hacer 
+				Imprimir x
+			FinPara
+	FinSegun
+	FinAlgoritmo
+```
